@@ -22,7 +22,7 @@ A simple Todo backend API built with FastAPI, PostgreSQL, and Docker.
 docker-compose up --build
 ```
 
-The API will be available at `http://localhost:8080`
+The API will be available at `http://localhost:8010`
 
 ## API Endpoints
 
@@ -35,8 +35,8 @@ The API will be available at `http://localhost:8080`
 ## API Documentation
 
 Once the application is running, you can access:
-- Swagger UI documentation at `http://localhost:8080/docs`
-- ReDoc documentation at `http://localhost:8080/redoc` 
+- Swagger UI documentation at `http://localhost:8010/docs`
+- ReDoc documentation at `http://localhost:8010/redoc` 
 
 
 
@@ -46,10 +46,10 @@ Once the application is running, you can access:
 To run the application:
 Make sure you have Docker and Docker Compose installed
 Run docker-compose up --build
-The API will be available at http://localhost:8080
+The API will be available at http://localhost:8010
 You can access the API documentation at:
-Swagger UI: http://localhost:8080/docs
-ReDoc: http://localhost:8080/redoc
+Swagger UI: http://localhost:8010/docs
+ReDoc: http://localhost:8010/redoc
 The API supports the following operations:
 Create a new todo
 List all todos
