@@ -68,3 +68,5 @@ dmypy.json
 # pytest
 .pytest_cache/
 .pytest_cache/*
+
+techno.md
