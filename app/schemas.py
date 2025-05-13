@@ -10,11 +10,6 @@ class TodoBase(BaseModel):
 class TodoCreate(TodoBase):
     pass
 
-class TodoUpdate(BaseModel):
-    title: Optional[str] = None
-    description: Optional[str] = None
-    completed: Optional[bool] = None
-
 class Todo(TodoBase):
     id: int
     created_at: datetime
